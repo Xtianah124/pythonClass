@@ -8,6 +8,6 @@ monthly_rate = (interest_rate / 100) / 12
 total_months = years_to_repay * 12
 
 
-monthly_payment = round(amount_to_borrowed * monthly_rate * (1 + monthly_rate)**total_months / ((1 + monthly_rate)** total_months - 1))
+monthly_payment = (amount_to_borrowed * monthly_rate * (1 + monthly_rate)**total_months / ((1 + monthly_rate)** total_months - 1))
 
 print(f"Your monthly payment amount will be: ${monthly_payment}")
