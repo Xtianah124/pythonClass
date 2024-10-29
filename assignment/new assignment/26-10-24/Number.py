@@ -12,5 +12,6 @@ elif (number == 5):
 	print("friday")
 elif (number == 6):
 	print("saturday")
+
 else: number == 7
 print("sunday")
