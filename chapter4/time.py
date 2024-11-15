@@ -1,3 +1,6 @@
-for number in range(1, 100):
- def get_add(number):
-   return number
+def add(number, titans):
+   number = 90;
+   titans = 5;
+   sum = numbers + titans;
+print(sum)
+   

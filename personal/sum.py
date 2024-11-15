@@ -1,4 +1,9 @@
-number1 = int(input("Enter first number"))
-number2 = int(input("Enter secoond number"))
+sum = 0
+average = 0
 
-print(number1 + number2)
+number = [5, 20]
+for i in number:
+	sum += i
+	average = sum / len(number)
+print(sum)
+print(average)

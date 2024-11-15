@@ -18,5 +18,5 @@ class TestCubeFunction(TestCase):
 
 	def test_that_cube_function_returns_correct_value_with_float(self):
 		actual = functionpractise.get_cube(2.3)
-		expected = 12.167
+		expected = 12.167  
 		self.assertedEqual(actual, expected)
