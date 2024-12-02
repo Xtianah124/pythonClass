@@ -8,8 +8,9 @@
 #prompt user to enter a number
 #collect  
 #save number as number_three
-#
-
+#compare each numbers
+#print according to their highest order
+#display result
 
 
 
@@ -18,7 +19,7 @@ number_one = int(input("Enter first number: "))
 number_two = int(input("Enter second number: "))
 number_three = int(input("Enter third number: "))
 
-if number_one < number_two & number_one < number_two:
+if number_one < number_two & number_one < number_three:
 	print(number_one)
 elif number_two > number_one & number_two < number_three:
 	print(number_two)
