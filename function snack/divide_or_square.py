@@ -13,7 +13,7 @@ def divide_or_square(number):
 
 	else: 
 		return number % 5
-	
+
 
 
 

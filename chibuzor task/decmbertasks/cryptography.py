@@ -36,7 +36,7 @@ key = int(input("Enter a key: "))
 
 
 
-alphabets = "abcdefghijklmnoprstuvwxyz"
+alphabets = "abcdefghijklmnopqrstuvwxyz"
 alphabets2 = "ABCDEFGHIJKLNOPQRSTUVWXYZ" 
 
 print(encrypt)

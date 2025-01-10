@@ -1,5 +1,5 @@
 import unittest
-from cryptography import *
+import cryptography
 
 class TestFunctionEncrypt(unittest.TestCase):		
 	def test_that_function_encrypt_exists(self):
