@@ -40,6 +40,8 @@ for index in range(4):
              #   answers_a[index]++
               #  responses = questions[0]
             #elif: (answer.equalsIgnoreCase("b"))
+
+		
              #   answers_b[index]++
              #   responses = questions[1]
 
